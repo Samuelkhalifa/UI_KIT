@@ -1,0 +1,159 @@
+/* GENERAL */
+body {
+    margin:0px;
+    background-color: rgb(230, 230, 230);
+    max-width: auto;
+
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+.text {
+    padding:10px;
+}
+
+
+
+/* HEADER-NAVBAR */
+header {
+    background-color: black;
+    color: rgb(111, 108, 108);
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+header h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+button {
+    border-radius: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+/* MAIN */
+
+
+
+/* FOOTER */
+footer {
+    bottom: 0;
+    margin-bottom:-600px;
+    position:absolute;
+    background-color: black;
+    color: rgb(111, 108, 108);
+    width: 100%;
+}
+
+
+.begin_end_footer {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(34, 34, 34);
+}
+
+footer ul {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+li {
+    margin-left: 20px;
+}
+
+.join_me {
+    color: rgb(47, 108, 215);
+    text-decoration: underline;
+}
+
+footer ul li {
+    display: inline ;
+}
+
+footer img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+
+/***************************************************************************************************/
+/* EXERCICE_NAVBAR */
+#navbarExercice {
+    height: 120px;
+}
+
+
+/* EXERCICE_BANNER */
+.title {
+    text-align: center;
+    font-family: copperplate;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sentence {
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url("img_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+
+/* EXERCICE_AUTHENTIFICATION FORM */
+
+.authentification_form_title h1 {
+    font-family: copperplate;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid 2px grey;
+    background-color: rgb(34, 34, 34);
+}
+.form input {
+    width: 350px;
+    height: 35px;
+}
+
+
+/* EXERCICE_FOOTER */
+
+
+
+/* EXERCICE_CARDS */
+.container_event_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#event_cards {
+    margin:10px;
+}
